@@ -1,0 +1,69 @@
+/* Styles for the entire Todo List */
+.todo-list {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styles for the title of the Todo List */
+  .todo-list h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  /* Styles for the input field and the add button */
+  .todo-list form {
+    display: flex;
+    margin-top: 1em;
+  }
+  
+  .todo-list input[type="text"] {
+    flex: 1;
+    padding: 0.5em;
+    font-size: 1.2em;
+    border-radius: 5px 0 0 5px;
+    border: 2px solid #ccc;
+    outline: none;
+  }
+  
+  .todo-list button[type="submit"] {
+    padding: 0.5em;
+    font-size: 1.2em;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  /* Styles for the list of Todo items */
+  .todo-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .todo-list li input[type="checkbox"] {
+    margin-right: 1em;
+  }
+  
+  .todo-list li button {
+    margin-left: auto;
+    padding: 0.5em;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
