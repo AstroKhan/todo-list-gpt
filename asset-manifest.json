@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todo-list-gpt/static/css/main.ec1f690a.css",
+    "main.js": "/todo-list-gpt/static/js/main.9133cb1c.js",
+    "index.html": "/todo-list-gpt/index.html",
+    "main.ec1f690a.css.map": "/todo-list-gpt/static/css/main.ec1f690a.css.map",
+    "main.9133cb1c.js.map": "/todo-list-gpt/static/js/main.9133cb1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec1f690a.css",
+    "static/js/main.9133cb1c.js"
+  ]
+}
